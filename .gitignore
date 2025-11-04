@@ -1,0 +1,110 @@
+﻿.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+*.Publish.xml
+
+# NuGet
+*.nupkg
+packages/
+.nuget/packages/
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.ReSharper
+
+# Rider caches
+/.idea/
+*.ipr
+*.iws
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# MSBuild
+*.rsp
+*.cache
+*.ilk
+*.meta
+*.log
+
+# Visual Studio database files
+*.dbmdl
+*.mdf
+*.ldf
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.svclog
+
+# EF Core Migrations snapshot / designer (optional)
+# Migrations/**/ModelSnapshot.cs
+
+# dotnet user secrets
+secrets.json
+
+# VS Code settings and history
+.vscode/
+.history/
+
+# Node / frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Logs and OS files
+*.log
+*.vsix
+.DS_Store
+Thumbs.db
+
+# Package and lock files that are typically regenerated
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Coverage / profiling
+coverage/
+*.lcov
+*.coverage
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Specific project folders
+/src/Application/obj/Debug/net9.0
+/src/Domain/bin/Debug
+/src/Domain/obj
+/src/Infrastructure/bin/Debug/net9.0
+/src/Infrastructure/obj
+/src/Web/bin/Debug/net9.0
+/src/Web/obj
+/src/Application/obj
+/src/Application/bin/Debug/net9.0
