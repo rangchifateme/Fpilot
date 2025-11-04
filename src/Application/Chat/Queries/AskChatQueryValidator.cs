@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Application.Chat.Queries
+namespace Application.Chat.Queries;
+public class AskChatQueryValidator : AbstractValidator<AskChatReqQuery>
 {
-    internal class AskChatQueryValidator
-    {
-    }
+    public AskChatQueryValidator() { RuleFor(x => x.Question).NotEmpty().MaximumLength(2048); }
 }
